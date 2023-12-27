@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const authMiddleware = require("../middlwares/authMiddleware");
+const authMiddleware = require("../middlewares/authMiddleware");
 const Notification = require("../models/notificationsModel");
 
 // add a notification

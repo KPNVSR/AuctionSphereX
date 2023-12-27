@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const Bid = require("../models/bidModel");
-const authMiddleware = require("../middlwares/authMiddleware");
+const authMiddleware = require("../middlewares/authMiddleware");
 
 // place a new bid
 router.post("/place-new-bid", authMiddleware , async (req, res) => {
